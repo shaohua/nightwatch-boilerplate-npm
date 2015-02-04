@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/nightwatch"
+    "test": "./node_modules/.bin/nightwatch",
+    "test-multi": "./node_modules/.bin/nightwatch -e firefox,chrome"
   },
   "author": "",
   "license": "MIT",

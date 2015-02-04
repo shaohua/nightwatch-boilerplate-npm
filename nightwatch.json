@@ -36,6 +36,21 @@
           "args": ["window-size=1280,800", "disable-web-security"]
         }
       }
+    },
+    "chrome" : {
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "javascriptEnabled": true,
+        "acceptSslCerts": true,
+        "chromeOptions": {
+          "args":["window-size=1280,800", "disable-web-security"]
+        }
+      }
+    },
+    "firefox" : {
+      "desiredCapabilities": {
+        "browserName": "firefox"
+      }
     }
   }
 }
