@@ -49,7 +49,9 @@
     },
     "firefox" : {
       "desiredCapabilities": {
-        "browserName": "firefox"
+        "browserName": "firefox",
+        "javascriptEnabled" : true,
+        "acceptSslCerts" : true
       }
     }
   }
